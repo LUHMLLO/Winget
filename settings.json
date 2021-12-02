@@ -1,0 +1,28 @@
+{
+    "$schema": "https://aka.ms/winget-settings.schema.json",
+    "source": {
+        "autoUpdateIntervalInMinutes": 3
+    },
+    "visual": {
+        "progressBar": "accent"
+    },
+    "installBehavior": {
+        "preferences": {
+            "source": "winget",
+            "scope": "machine",
+            "exact": true,
+            "silent": true,
+            "accept-source-agreements": true,
+            "accept-package-agreements": true
+        }
+    },
+    "telemetry": {
+        "disable": true
+    },
+    "network": {
+        "downloader": "do"
+    },
+    "experimental": {
+        "directMSI": true
+    }
+}
