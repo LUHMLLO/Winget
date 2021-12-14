@@ -1,7 +1,7 @@
 winget install -e -h --id EclipseAdoptium.Temurin.17 --source "winget";
 winget install -e -h --id Git.Git --source "winget";
 winget install -e -h --id Microsoft.DirectXWebSetup --source "winget";
-winget install -e -h --id Microsoft.dotNetFramework --source "winget";
+winget install -e -h --id Microsoft.dotnetRuntime.6-x64 --source "winget";
 winget install -e -h --id OpenJS.NodeJS --source "winget";
 winget install -e -h --id Python.Python.3 --source "winget";
 
